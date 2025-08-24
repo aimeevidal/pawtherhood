@@ -1,0 +1,47 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Media and static files (optional if you don’t want to commit uploads)
+media/
+staticfiles/
+
+# Environment variables / settings
+.env
+*.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# Migrations (optional, some people track these)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
